@@ -1,7 +1,7 @@
 import React from 'react';
 
 const sourcebit = require('sourcebit');
-const sourcebitConfig = require('./sourcebit.js');
+const sourcebitConfig = require('../sourcebit.js');
 import { sourcebitDataClient } from 'sourcebit-target-next';
 
 import { withRemoteDataUpdates } from 'sourcebit-target-next/with-remote-data-updates';
