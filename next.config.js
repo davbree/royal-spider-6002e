@@ -17,7 +17,6 @@ module.exports = withBundleAnalyzer({
     webpack: (config, { webpack, dev, isServer }) => {
 
         if (isServer) {
-            try {
                 sourcebit.fetch(sourcebitConfig).catch(err => console.log(err))
             } catch (err) {
 
