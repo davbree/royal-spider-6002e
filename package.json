@@ -22,7 +22,7 @@
         "react-dom": "17.0.2",
         "sourcebit": "^0.11.0",
         "sourcebit-source-filesystem": "^0.1.6",
-        "sourcebit-target-next": "file:/Users/davidberlin/Develop/sourcebit-target-next",
+        "sourcebit-target-next": "0.7.0",
         "tailwindcss": "^2.2.4"
     },
     "devDependencies": {
