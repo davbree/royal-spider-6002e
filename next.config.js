@@ -38,5 +38,3 @@ module.exports = withBundleAnalyzer({
         return config;
     }
 });
-
-test.a
