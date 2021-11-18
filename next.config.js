@@ -33,6 +33,8 @@ module.exports = withBundleAnalyzer({
             config.optimization.usedExports = true;
         }
 
+        a.a
+
         return config;
     }
 });
