@@ -18,7 +18,6 @@ module.exports = withBundleAnalyzer({
         if (isServer) {
             sourcebit.fetch(sourcebitConfig);
         }
-        a.a
         // temporary: for local development -  edit package.json "@stackbit/components": "file:../stackbit-components" and uncomment the alias below.
         // config.resolve.alias['react'] = path.resolve('./node_modules/react');
         // config.resolve.alias['next'] = path.resolve('./node_modules/next');
