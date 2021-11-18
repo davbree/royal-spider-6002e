@@ -18,6 +18,13 @@ function Page(props) {
 }
 
 export async function getStaticPaths() {
+
+try {
+    sourcebit.fetch(sourcebitConfig).catch(err => console.log(err))
+} catch (err) {
+
+
+}
     let data = await sourcebitDataClient.getData();
     const paths = data.pages.map((page) => page.path);
     return { paths, fallback: false };
