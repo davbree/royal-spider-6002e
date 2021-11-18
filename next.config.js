@@ -15,7 +15,6 @@ module.exports = withBundleAnalyzer({
         ignoreDuringBuilds: true
     },
     webpack: (config, { webpack, dev, isServer }) => {
-
         if (isServer) {
             sourcebit.fetch(sourcebitConfig);
         }
