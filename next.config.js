@@ -39,3 +39,5 @@ module.exports = withBundleAnalyzer({
         return config;
     }
 });
+
+JSON.l
