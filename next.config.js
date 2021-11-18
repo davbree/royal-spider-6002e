@@ -5,12 +5,6 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
     enabled: process.env.ANALYZE === 'true',
 });
 
-try {
-    sourcebit.fetch(sourcebitConfig).catch(err => console.log(err))
-} catch (err) {
-
-
-}
 module.exports = withBundleAnalyzer({
     trailingSlash: true,
     devIndicators: {
