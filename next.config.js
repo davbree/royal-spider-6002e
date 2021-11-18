@@ -8,7 +8,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 try {
     sourcebit.fetch(sourcebitConfig).catch(err => console.log(err))
 } catch (err) {
-    
+
 
 }
 module.exports = withBundleAnalyzer({
@@ -39,3 +39,5 @@ module.exports = withBundleAnalyzer({
         return config;
     }
 });
+
+a.a
