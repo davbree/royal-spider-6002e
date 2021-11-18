@@ -14,7 +14,14 @@ module.exports = withBundleAnalyzer({
         // Allow production builds to successfully complete even if your project has ESLint errors.
         ignoreDuringBuilds: true
     },
-    webpack: (config, { webpack, dev }) => {
+    webpack: (config, { webpack, dev, isServer }) => {
+
+try {
+    sourcebit.fetch(sourcebitConfig).catch(err => console.log(err))
+} catch (err) {
+
+
+}
         // temporary: for local development -  edit package.json "@stackbit/components": "file:../stackbit-components" and uncomment the alias below.
         // config.resolve.alias['react'] = path.resolve('./node_modules/react');
         // config.resolve.alias['next'] = path.resolve('./node_modules/next');
