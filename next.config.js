@@ -36,5 +36,3 @@ module.exports = withBundleAnalyzer({
         return config;
     }
 });
-
-a.a
