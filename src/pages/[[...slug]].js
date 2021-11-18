@@ -1,9 +1,5 @@
 import React from 'react';
-
-const sourcebit = require('sourcebit');
-const sourcebitConfig = require('../sourcebit.js');
 import { sourcebitDataClient } from 'sourcebit-target-next';
-
 import { withRemoteDataUpdates } from 'sourcebit-target-next/with-remote-data-updates';
 import { getComponent } from '@stackbit/components';
 
@@ -22,13 +18,6 @@ function Page(props) {
 }
 
 export async function getStaticPaths() {
-
-try {
-    sourcebit.fetch(sourcebitConfig).catch(err => console.log(err))
-} catch (err) {
-
-
-}
     let data = await sourcebitDataClient.getData();
     const paths = data.pages.map((page) => page.path);
     return { paths, fallback: false };
