@@ -7,7 +7,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 console.log("NEXT CONFIG>JS")
             sourcebit.fetch(sourcebitConfig);
-            
+            a.a
 
 module.exports = withBundleAnalyzer({
     trailingSlash: true,
