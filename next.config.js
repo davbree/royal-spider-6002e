@@ -19,7 +19,7 @@ module.exports = withBundleAnalyzer({
     },
     webpack: (config, { webpack, dev, isServer }) => {
         if (isServer) {
-            console.log('INTIA L FETCH!!!')
+            console.log('INTIAL FETCH!!!')
         }
         // temporary: for local development -  edit package.json "@stackbit/components": "file:../stackbit-components" and uncomment the alias below.
         // config.resolve.alias['react'] = path.resolve('./node_modules/react');
@@ -38,4 +38,3 @@ module.exports = withBundleAnalyzer({
         return config;
     }
 });
-
