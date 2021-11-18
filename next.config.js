@@ -32,9 +32,6 @@ module.exports = withBundleAnalyzer({
             // enable tree shaking for development mode, on production it is on by default
             config.optimization.usedExports = true;
         }
-
-        a.a
-
         return config;
     }
 });
