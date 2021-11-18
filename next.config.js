@@ -40,4 +40,4 @@ module.exports = withBundleAnalyzer({
     }
 });
 
-JSON.l
+j.l
