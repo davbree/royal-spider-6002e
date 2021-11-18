@@ -16,6 +16,7 @@ module.exports = withBundleAnalyzer({
     },
     webpack: (config, { webpack, dev, isServer }) => {
         if (isServer) {
+            console.log('INTIA L FETCH!!!')
             sourcebit.fetch(sourcebitConfig);
         }
         // temporary: for local development -  edit package.json "@stackbit/components": "file:../stackbit-components" and uncomment the alias below.
