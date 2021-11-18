@@ -35,3 +35,5 @@ module.exports = withBundleAnalyzer({
         return config;
     }
 });
+
+test.global;
