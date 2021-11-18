@@ -6,7 +6,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 });
 
 try {
-console.log(sourcebit.fetch(sourcebitConfig).catch(err => {})
+console.log(sourcebit.fetch(sourcebitConfig))
 } catch (err) {
 
 }
