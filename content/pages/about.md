@@ -9,7 +9,7 @@ sections:
     feature:
       type: ImageBlock
       url: /images/about.jpg
-      altText: About us
+      altText: ..About us
     styles:
       self:
         height: auto
