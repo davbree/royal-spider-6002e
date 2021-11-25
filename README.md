@@ -12,7 +12,7 @@ npm install
 npm run dev
 ```
 
-### Add a new pagezzzzzaa!!!!
+### Add a new pagezzzaaaa
 
 Create a new markdown file `content/pages/new-page.md` with the following frontmatter.
 
