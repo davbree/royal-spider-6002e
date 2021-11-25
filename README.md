@@ -1,7 +1,7 @@
 # Stackbit Nextjs V2
 
 Latest
-The NextJs dsacore starter for Stackbit.
+The NextJzzs dsacore starter for Stackbit.
 
 ## Quickstartszz
 
