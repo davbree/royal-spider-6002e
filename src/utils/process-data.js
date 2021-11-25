@@ -94,6 +94,7 @@ function resolveReferenceFields({ fieldNames = [], maxDepth = 2 } = {}) {
                 }
                 return value;
             });
+            
         });
 
         return {
