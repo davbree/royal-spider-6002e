@@ -10,6 +10,7 @@ function urlPathFromFilePath(filePath) {
     urlPath.substr(-1) === '/' ? urlPath.slice(0, -1) : urlPath;
     return '/' + urlPath;
 }
+
 function a() {
     console.log("a")
 }
