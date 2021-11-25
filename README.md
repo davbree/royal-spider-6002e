@@ -3,7 +3,7 @@
 Latest
 The NextJs core starter for Stackbit.
 
-## Quickstarts
+## Quickstartszz
 
 ```
 npm install
