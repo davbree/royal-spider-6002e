@@ -15,7 +15,7 @@ sections:
         url: /
         style: primary
       - type: Button
-        label: Learn More
+        label: Learn More??
         url: /
         style: secondary
     feature:
