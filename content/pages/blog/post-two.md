@@ -1,5 +1,5 @@
 ---
-title: Bi-weekly delivery
+title: Bi-weeklyd delivery
 layout: PostLayout
 date: '2020-05-21'
 author: content/data/team/desmond-eagle.json
