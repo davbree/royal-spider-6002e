@@ -6,7 +6,7 @@ sections:
     elementId: ''
     colors: colors-b
     quote: |
-      # Experience it for yourself
+      # Experience it for yourselflll
     backgroundImage:
       type: ImageBlock
       url: /images/bg.png
