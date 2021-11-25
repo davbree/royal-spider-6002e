@@ -10,7 +10,7 @@ sections:
     backgroundImage:
       type: ImageBlock
       url: /images/bg.png
-      altText: Product Marketing Manager Quote
+      altText: Product Marketing Manasger Quote
     styles:
       self:
         height: auto
