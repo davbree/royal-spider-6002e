@@ -1,5 +1,5 @@
 ---
-title: As fresh as it gets - weekly subscription
+title: As fresh as it gets - we!!ekly subscription
 layout: PostLayout
 date: '2021-07-01'
 author: content/data/team/hilary-ouse.json
