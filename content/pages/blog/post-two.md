@@ -9,7 +9,7 @@ excerpt: >-
 featuredImage:
   type: ImageBlock
   url: /images/fish-dinner.png
-  altText: Post Imageaaa
+  altText: Post Imageaaaaa
 bottomSections:
   - type: CtaSection
     colors: colors-a
