@@ -18,7 +18,7 @@ bottomSections:
       The Stackbit theme is flexible and scalable to every need. It can manage any layout and any screen.
     actions:
       - type: Button
-        label: Get Started
+        label: Get Started??
         url: "https://www.stackbit.com/"
         style: primary
     styles:
